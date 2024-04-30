@@ -2,15 +2,10 @@
     margin-top: 50px;
   }
 
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+ul{
+  margin-right: 50px;
 }
 
-button:hover {
-    background-color: #0056b3;
+a{
+  font-size: larger;
 }
