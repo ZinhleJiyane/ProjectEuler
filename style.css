@@ -10,6 +10,16 @@ a{
   font-size: larger;
 }
 
+.btn{
+  margin-bottom: 2px;
+}
+
 .link2{
   margin: auto;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  
 }

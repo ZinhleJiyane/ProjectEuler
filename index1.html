@@ -12,7 +12,7 @@
 <header>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
-  <a class="navbar-brand" href="#" style="font-size: 24px;">Project Euler</a>
+  <a class="title navbar-brand" href="#">Project Euler</a>
   <ul class="link2  nav nav-pills mb-2" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="pills-Problem-1-tab" data-bs-toggle="pill" data-bs-target="#pills-Problem-1" type="button" role="tab" aria-controls="pills-Problem-1" aria-selected="true">Problem-1</button>
@@ -40,21 +40,21 @@
         <p>If we list all the natural numbers below <strong>10</strong> that are multiples of <strong>3</strong> or <strong>5</strong>, we get <strong>3,5,6</strong> and <strong>9</strong>. The sum of these multiples is <strong>23</strong>.
         <br>
         Find the sum of all the multiples of <strong>3</strong> or <strong>5</strong> below <strong>1000</strong>.</p>
-        <h5>Check Answer Mode</h5>
+        <h5>Check Answer</h5>
         <label for="answer">Enter your answer:</label>
         <input type="number" id="answerCheck">
         <button type="button" class="btn btn-primary mb-2" onclick="checkAnswer()">Check Answer</button>
         <p id="checkResult"></p>
     
       <div id="calculateMode">
-        <h5>Calculate Sum Mode</h5>
+        <h5>Enter any numbers to check for multiples:</h5>
         <label for="num1">Enter first number:</label>
         <input type="number" id="num1">
         <label for="num2">Enter second number:</label>
         <input type="number" id="num2">
         <label for="max">Enter max value:</label>
         <input type="number" id="max">
-        <button type="button" class="btn btn-primary mb-2" onclick="calculateSum()">Calculate Sum</button>
+        <button type="button" class="btn btn-primary" onclick="calculateSum()">Calculate Sum</button>
         <p id="calculateResult"></p>
       </div>
     </div>
@@ -68,7 +68,7 @@
             <br>
             <label for="answer2">Enter your answer:</label>
             <input type="number" id="answer2">
-            <button type="button" class="btn btn-primary mb-2" onclick="calculateProblem2()">Submit</button>
+            <button type="button" class="btn btn-primary" onclick="calculateProblem2()">Submit</button>
             <p id="result2"></p>
       </div>
     <div class="tab-pane fade" id="pills-Problem-3" role="tabpanel" aria-labelledby="pills-Problem-3-tab">
@@ -77,13 +77,13 @@
             <br>
             What is the largest prime factor of the number <strong>600851475143</strong>?</p>
             <input type="number" id="answer3">
-            <button type="button" class="btn btn-primary mb-2" onclick="calculateProblem3()">Submit</button>
+            <button type="button" class="btn btn-primary" onclick="calculateProblem3()">Submit</button>
             <p id="result3"></p>
             
             <h5>Calculate Largest Prime Factor</h5>
             <label for="userNumber">Enter your number:</label>
             <input type="number" id="userNumber">
-            <button type="button" class="btn btn-primary mb-2" onclick="calculateLargestPrimeFactor()">Calculate</button>
+            <button type="button" class="btn btn-primary" onclick="calculateLargestPrimeFactor()">Calculate</button>
             <p id="primeFactorResult"></p>
     </div>
   </div>
